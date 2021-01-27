@@ -6,7 +6,9 @@
       } 
 
 body {
-    background-color: #dbdbdb ;
+    background: url(..//images/henry-co-tqu0IOMaiU8-unsplash.jpg);
+    background-repeat: no-repeat;
+    /* background-color: #dbdbdb ; */
 }
 
 .inline-block {
@@ -16,7 +18,7 @@ body {
 }
 
 .logo {
-    width: 5%;
+    width: 75%;
     padding: 1%;
 }
 
@@ -43,7 +45,7 @@ ul li {
 .heroimg {
     background-color: white;
     width: fit-content;
-    height: 800px;
+    height: 850px;
     padding: 25px;
     margin: 15px auto;
     text-align: center;
@@ -56,8 +58,25 @@ ul li {
     margin-bottom: 7%;
 }
 
+.heroimg {
+    box-shadow: -5px 5px #888888;
+}
+
+.content img{
+    border-top: 5px #00A880;
+}
+
 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
     margin-bottom: 7%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: 7%;
+    padding: 5px;
 }
 
 .content {
